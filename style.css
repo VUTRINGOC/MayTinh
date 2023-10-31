@@ -76,3 +76,60 @@ th, td {
 .bang{
     text-align: center;
 }
+
+/* Your existing CSS code */
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    .wraper {
+        padding: 10px;
+    }
+
+    .tinhtoan {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .tinhtoan button,
+    .tinhtoan input,
+    .tinhtoan label {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .tinhtoan button {
+        padding: 8px 12px;
+        border-radius: 4px;
+    }
+
+    .tinhtoan input {
+        padding: 8px;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+    }
+
+    .tinhtoan label {
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .tuychon {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-bottom: 10px;
+    }
+
+    .tuychon button {
+        flex: 0 0 48%;
+        margin-top: 10px;
+    }
+
+    #kq {
+        margin-top: 10px;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    /* Any other mobile-specific styles can be placed here */
+}
