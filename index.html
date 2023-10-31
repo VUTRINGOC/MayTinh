@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lưu danh sách phép tính</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wraper">
+        <div class="tinhtoan">
+            <button id="randomButton">Random</button>
+            <input type="number" name="so1" id="so1">
+            <label id="PhepTinh">Phép Tính</label>
+            <input type="number" name="so2" id="so2">
+            <button id="resultButton">=</button>
+            <label id="kq">Kết Quả</label>
+        </div>
+        <div class="tuychon">
+            <button class="operationButton" data-operation="+">Cộng</button>
+            <button class="operationButton" data-operation="-">Trừ</button>
+            <button class="operationButton" data-operation="*">Nhân</button>
+            <button class="operationButton" data-operation="/">Chia</button>
+        </div>
+        <div class="bang">
+            <h2>Danh sách các phép tính</h2>
+            <table id="historyTable">
+                <tr>
+                    <th>Số 1</th>
+                    <th>Phép Tính</th>
+                    <th>Số 2</th>
+                    <th>Kết Quả</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

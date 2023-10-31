@@ -1,0 +1,78 @@
+/* Thiết lập font chung cho toàn bộ trang */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Thiết lập giao diện cho các phần tử */
+.wraper {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.tinhtoan {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.tinhtoan button {
+    padding: 8px 12px;
+    cursor: pointer;
+    border: none;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.tinhtoan input {
+    padding: 8px;
+    width: 100px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.tinhtoan label {
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.tuychon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tuychon button {
+    padding: 8px 12px;
+    cursor: pointer;
+    border: none;
+    background-color: #2ecc71;
+    color: #fff;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+#kq {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+/* Thiết lập giao diện cho bảng */
+table {
+
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+.bang{
+    text-align: center;
+}
